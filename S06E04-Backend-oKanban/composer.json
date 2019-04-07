@@ -1,0 +1,22 @@
+{
+    "name": "LeslieMtrn/oKanban-API",
+    "description": "La partie backend API du projet oKanban",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leslie Mtrn",
+            "email": "leslie.maturin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "symfony/var-dumper": "*",
+        "benoclock/alto-dispatcher": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "oKanban\\": "app/"
+        }
+    }
+}
